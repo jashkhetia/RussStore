@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - RussStore</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class = "navbar"> 
+         <div class = "logo">
+             <a href="Index.html"><img src = "Images/russstore.png" width="115px"></a>
+         </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href = "Index.html">Home</a></li>
+                <li><a href = "products.html">Products</a></li>
+                <li><a href = "">About</a></li>
+                <li><a href = "">Contact</a></li>
+                <li><a href = "account.html">Account</a></li>
+            </ul>
+        </nav> 
+            <a href="cart.html"><img src="Images/1047_-_Checkout-512.png" width="35px" height="30px"></a>
+            <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+<!------- cart item details ------->
+   <div class="small-container cart-page">
+       <table>
+           <tr>
+               <th>Product</th>
+               <th>Quantity</th>
+               <th>Subtotal</th>
+           </tr>
+           <tr>
+               <td>
+                   <div class="cart-info">
+                        <img src="Images/image-removebg-preview%20(1).jpg">
+                        <div>
+                            <p> Pyscho pt2 Jersey</p>
+                            <small>Price: $75.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>           
+               </td>
+               <td><input type="number" value = "1"></td>
+               <td>$75.00</td>
+           </tr>
+                      <tr>
+               <td>
+                   <div class="cart-info">
+                        <img src="Images/image-removebg-preview%20(2).jpg">
+                        <div>
+                            <p>Stay Winning Hoodie</p>
+                            <small>Price: $55.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>           
+               </td>
+               <td><input type="number" value = "1"></td>
+               <td>$55.00</td>
+           </tr>
+                      <tr>
+               <td>
+                   <div class="cart-info">
+                        <img src="Images/image-removebg-preview%20(5).jpg">
+                        <div>
+                            <p> Chomp 2 Hoodie</p>
+                            <small>Price: $60.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>           
+               </td>
+               <td><input type="number" value = "1"></td>
+               <td>$60.00</td>
+           </tr>
+       </table>
+       
+       <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$190</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$220</td>
+                </tr>
+            </table>
+
+        </div>
+   </div>
+    
+<!------signup------>    
+    
+<div class="signup">
+                    <h1>10% Off</h1>
+                    <hr>
+                    <p>Sign up to receive exclusive offers from
+                        RussStore and get 10% OFF On your first order</p>
+                    <form>
+                        <input type="email" placeholder="Email" required>
+                        <br>
+                        <button type="submit">Sign Up</button>
+                    </form>
+    
+</div>  
+<!------Footer------>
+   <br>
+   <br>
+    <footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <ul class="socials">
+                    <li><a target="_blank" href="https://www.facebook.com/russtheone"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a target="_blank"href="https://twitter.com/russdiemon"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/russ"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCiIETTq2It3OzW8_WYRPTyQ/featured"><i class="fa fa-youtube-play fa-2x"></i></a></li>
+                    <li><a target="_blank" href="https://music.apple.com/us/album/shake-the-snow-globe/1489508511"><i class="fa fa-apple fa-2x"></i></a></li>
+                    <li><a target="_blank" href="https://open.spotify.com/artist/1z7b1Pr1rSlvWRzsW3HOrS"><i class="fa fa-spotify fa-2x"></i></a></li>
+                </ul> 
+            </div> 
+        </div>
+       </div>    
+    </footer>
+    <br>
+      <div class="image-container">
+          <span class="helper"></span>
+          <img src="Images/cover_500x_e04bfcf0-4e6c-45d8-bd8e-1b89edc16d95_500x.jpg" width="7%">
+      </div>
+    <footer>
+        <section class="footer-2">
+        <ul class="useful-links">
+            <li><a href="#">Help &ensp; | </a></li>
+            <li><a href="#">&emsp; Terms &emsp; | </a></li>
+            <li><a href="#">&emsp; Privacy &emsp; | </a></li>
+            <li><a href="#">&emsp; Return Policy</a></li>
+        </ul>
+        <p class="copyright">
+            &copy; 2022 RussStore. All Rights Reserved.
+        </p>
+        </section>      
+    </footer>
+    
+<!------js for toggle menu------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        
+        }
+    </script>
+</body>
+</html>
